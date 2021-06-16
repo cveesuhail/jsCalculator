@@ -46,9 +46,9 @@
       .btn{
         font-size: 24px;
         border: 0;
-        border-radius: 5px;
-        width: 50px;
-        height: 28px;
+        border-radius: 15px;
+        width: 80px;
+        height: 48px;
         background-color: rgb(222, 193, 247);
         box-shadow: 0 1px 5px #00000052;
       }
@@ -58,31 +58,34 @@
 
       }
       .br{
-        height: 5px;
+        height: 15px;
       }
       .input{
-        height: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        height: 60px;
         width: 80%;
         border: 0;
-        border-radius: 5px;
+        border-radius: 15px;
         background-color: rgb(222, 193, 247);
         box-shadow: 0 1px 10px #00000052;
       }
       .input::placeholder{
         color: black;
+        font-size: 24px;
+        
       }
       .input:hover{
-        color: rgb(222, 193, 247);
+        color: rgb(49, 43, 43);
         background-color: black;
 
       }
       .res{
         background-color: black;
-        border-radius: 10px;
-        height: 30px;
+        border-radius: 15px;
+        height: 60px;
         color: rgb(222, 193, 247);
         font-size: 28px;
-        width: 40%;
+        width: 65%;
         margin: auto;
       }
       
@@ -96,14 +99,17 @@
         Calcutlator !
         </h1>
         
-        <input class="input" type="text" id="firstNumber" placeholder="Enter 1st Number">
+        <input class="input" type="text" id="firstNumber" placeholder="     Enter 1st Number">
         <div class="br"></div>
-        <input class="input" type="text" id="secondNumber" placeholder="Enter 2nd Number">
+        <input class="input" type="text" id="secondNumber" placeholder="     Enter 2nd Number">
         <br><br>
 
         <input class="btn" type="button" value=" + " onclick="addBy()">
+        &nbsp;
         <input class="btn" type="button" value=" - " onclick="substractBy()">
+        &nbsp;
         <input class="btn" type="button" value=" * " onclick="multipleBy()">
+        &nbsp;
         <input class="btn" type="button" value=" / " onclick="divisionBy()">
         
 
